@@ -12,8 +12,11 @@ buildscript {
 group 'de.hspf'
 version '1.0-SNAPSHOT'
 
+apply plugin: 'application'
 apply plugin: 'java'
 apply plugin: 'kotlin'
+
+mainClassName = 'MainKt'
 
 repositories {
     mavenCentral()
