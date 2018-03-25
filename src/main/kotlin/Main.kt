@@ -15,4 +15,9 @@ fun main(args: Array<String>) {
     println("Running Kotlin example safe")
     de.hspf.kotlin.examples.safe.main(arrayOf())
 
+    println("Running Java example extension")
+    de.hspf.java.examples.extension.Main.main(arrayOf())
+    println("Running Kotlin example extension")
+    de.hspf.kotlin.examples.extension.main(arrayOf())
+
 }
