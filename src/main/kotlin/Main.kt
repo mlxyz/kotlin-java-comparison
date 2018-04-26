@@ -20,4 +20,14 @@ fun main(args: Array<String>) {
     println("Running Kotlin example extension")
     de.hspf.kotlin.examples.extension.main(arrayOf())
 
+    println("Running Java example operator overloading ")
+    de.hspf.java.examples.operator_overloading.Main.main(arrayOf())
+    println("Running Kotlin example operator overloading")
+    de.hspf.kotlin.examples.operator_overloading.main(arrayOf())
+
+    println("Running Java example optional parameters")
+    de.hspf.java.examples.optional_parameters.Main.main(arrayOf())
+    println("Running Kotlin example optional parameters")
+    de.hspf.kotlin.examples.optional_parameters.main(arrayOf())
+
 }
